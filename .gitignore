@@ -1,0 +1,38 @@
+# Large data files - do not push
+data/nhanes/
+data/brfss/
+data/midus/
+*.XPT
+*.xpt
+*.csv
+*.sas7bdat
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+work/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Trained models (if large)
+models/*.pkl
+models/*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
