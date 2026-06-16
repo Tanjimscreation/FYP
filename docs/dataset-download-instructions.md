@@ -43,14 +43,14 @@ Or download manually:
 
 | File | Link |
 |---|---|
-| `DEMO_I.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DEMO_I.XPT |
-| `DPQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DPQ_I.XPT |
-| `PAQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/PAQ_I.XPT |
-| `HOQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/HOQ_I.XPT |
-| `DEMO_J.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DEMO_J.XPT |
-| `DPQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DPQ_J.XPT |
-| `PAQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.XPT |
-| `HOQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/HOQ_J.XPT |
+| `DEMO_I.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.xpt |
+| `DPQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DPQ_I.xpt |
+| `PAQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAQ_I.xpt |
+| `HOQ_I.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HOQ_I.xpt |
+| `DEMO_J.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.xpt |
+| `DPQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DPQ_J.xpt |
+| `PAQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAQ_J.xpt |
+| `HOQ_J.XPT` | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HOQ_J.xpt |
 
 ### Optional 2017-March 2020 Extension
 
@@ -60,9 +60,9 @@ Candidate optional files:
 
 | File | Module | Link |
 |---|---|---|
-| `P_DEMO.XPT` | Demographics and sample weights | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_DEMO.XPT |
-| `P_DPQ.XPT` | Mental Health - Depression Screener | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_DPQ.XPT |
-| `P_PAQ.XPT` | Physical Activity | https://wwwn.cdc.gov/Nchs/Nhanes/2017-2020/P_PAQ.XPT |
+| `P_DEMO.XPT` | Demographics and sample weights | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DEMO.xpt |
+| `P_DPQ.XPT` | Mental Health - Depression Screener | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_DPQ.xpt |
+| `P_PAQ.XPT` | Physical Activity | https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_PAQ.xpt |
 
 Download these optional files with:
 

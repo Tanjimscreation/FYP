@@ -8,23 +8,23 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 
-BASE_URL = "https://wwwn.cdc.gov/Nchs/Nhanes"
+BASE_URL = "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public"
 
 BASELINE_FILES = [
-    ("2015-2016", "DEMO_I.XPT"),
-    ("2015-2016", "DPQ_I.XPT"),
-    ("2015-2016", "PAQ_I.XPT"),
-    ("2015-2016", "HOQ_I.XPT"),
-    ("2017-2018", "DEMO_J.XPT"),
-    ("2017-2018", "DPQ_J.XPT"),
-    ("2017-2018", "PAQ_J.XPT"),
-    ("2017-2018", "HOQ_J.XPT"),
+    ("2015", "DEMO_I.XPT"),
+    ("2015", "DPQ_I.XPT"),
+    ("2015", "PAQ_I.XPT"),
+    ("2015", "HOQ_I.XPT"),
+    ("2017", "DEMO_J.XPT"),
+    ("2017", "DPQ_J.XPT"),
+    ("2017", "PAQ_J.XPT"),
+    ("2017", "HOQ_J.XPT"),
 ]
 
 PREPANDEMIC_FILES = [
-    ("2017-2020", "P_DEMO.XPT"),
-    ("2017-2020", "P_DPQ.XPT"),
-    ("2017-2020", "P_PAQ.XPT"),
+    ("2017", "P_DEMO.XPT"),
+    ("2017", "P_DPQ.XPT"),
+    ("2017", "P_PAQ.XPT"),
 ]
 
 
@@ -66,8 +66,9 @@ def main() -> None:
         files.extend(PREPANDEMIC_FILES)
 
     output_dir = Path(args.output_dir)
-    for cycle, filename in files:
-        url = f"{BASE_URL}/{cycle}/{filename}"
+    for cycle_path, filename in files:
+        url_filename = f"{Path(filename).stem}.xpt"
+        url = f"{BASE_URL}/{cycle_path}/DataFiles/{url_filename}"
         download(url, output_dir / filename, overwrite=args.overwrite)
 
 
